@@ -4,15 +4,24 @@
     <meta charset="utf-8"> 
     <title>My Personal Website</title>
     <link rel="stylesheet" href="style.css" />
-
-    <script>
-        function displayDate() {
-            document.getElementById("showDate").innerHTML = Date();
-        }
-    </script>
-
   </head>
   <body>
+    <style>
+        .parallax {
+            background-image: url(golf\ course.jpg);
+            min-height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <div class="parallax"></div>
+    <div style="height: 500px;
+                background-color: transparent; 
+                font-size: 36px">
+    </div>
+    </div>
     <div>
         <h1>Grass</h1>
         <button type="button" onclick="displayDate()">Display Date</button>
@@ -69,4 +78,9 @@
     </div>
          <p><em>St. Augustine</em> grass is reminiscent of the kind of grass you would have likely played in as a child; large-bladed, roughly cut, thick growth. <em>St. Augustine</em> grass is one of the most popular lawn grasses in the coastal state of Florida! Forming a thick, dense turf, this grass establishes itself quickly and has a remarkable trait - it has a high tolerance for salt! Making it an ideal choice for coastal lawns and yards! Thriving in environments with high humidity, it is also a popular grass in Australia. Also known as <em><strong>"buffalo turf"</strong></em> for it's dense, "carpet-like" sod, this grass is also commonly used in pastures and on ranches for livestock to graze on.</p>
   </body>
+  <script>
+    function displayDate() {
+        document.getElementById("showDate").innerHTML = Date();
+    }
+</script>
 </html>
