@@ -1,17 +1,58 @@
-body {
-    background: rgb(125, 195, 252)
-}
+ body {
+    background-color: none;
+    border: solid black; 
+} 
 
 
- * {
+
+/* IMAGES */
+#red_fescue {
     box-sizing: border-box;
     margin: 10px;
     padding: 1px;
-    font-family: sans-serif;
+    border: solid black; 
+} 
+
+#kentucky_bluegrass {   
+     box-sizing: border-box;
+     margin: 10px;
+     padding: 1px;
+     border-style: ridge;
+     border: solid black;
 }
 
+#st_augustine {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 1px;
+    border: solid black;
+}
 
-/*.navbar {
+/*PARAGRAPHS*/
+#fescue_paragraph {
+    box-sizing: content-box;
+    float: right;
+    margin: 10px;
+    padding: 1px;
+    border: solid black; 
+}
+
+#kentucky_paragraph {
+    box-sizing: border-box;
+    float: left;
+    margin: 10px;
+    padding: 1px;
+    border: solid black;
+}
+
+#augustine_paragraph {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 1px;
+    border: solid black;
+
+
+    /*.navbar {
     background: #131313;
     height: 80px;
     display: flex;

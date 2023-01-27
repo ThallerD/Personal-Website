@@ -3,21 +3,11 @@
   <head>
     <meta charset="utf-8"> 
     <title>My Personal Website</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <style>
-        .parallax {
-            background-image: url(golf\ course.jpg);
-            min-height: 500px;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    </style>
     <div class="parallax"></div>
-    <div style="height: 500px;
+    <div style="height: 0px;
                 background-color: transparent; 
                 font-size: 36px">
     </div>
@@ -37,13 +27,11 @@
              id="red_fescue"
              title="so swirly!"  
              alt="swirling grass" 
-             width= "700px" 
-             height="450px"  
-        
-        />
+             width="700px" 
+             height="450px"  />
     </div>
     <div>      
-        <p><em>Creeping Red Fiscue</em>is an easy, low-maintenance, fine-bladed grass that is found almost everywhere. With a name like<em><strong>red</strong>fescue</em>, it almost seems like a misnomer. The <em>"red"</em> comes from the dark, reddish-color at the base of the stalk on each blade. In reality, this species presents itself with a rich, medium-to-dark green color, making for beautiful landscapes! As for the <em><strong>"creeping"</strong></em>, that just describes how this tough plant grows and spreads throughout the soil. After earning a tough reputation of being able to thrive in all climates, including drought-like conditions, and being able to stand up to being trampled on, <em>creeping red fescue</em> is a favorite amongst landscapers for lawns, golf courses, fields, and playgrounds everywhere!
+        <p class="paragraph" id="fescue_paragraph" style="float:right;"><em>Creeping Red Fescue</em>is an easy, low-maintenance, fine-bladed grass that is found almost everywhere. With a name like <em><strong>red</strong> fescue</em>, it almost seems like a misnomer. The <em>"red"</em> comes from the dark, reddish-color at the base of the stalk on each blade. In reality, this species presents itself with a rich, medium-to-dark green color, making for beautiful landscapes! As for the <em><strong>"creeping"</strong></em>, that just describes how this tough plant grows and spreads throughout the soil. After earning a tough reputation of being able to thrive in all climates, including drought-like conditions, and being able to stand up to being trampled on, <em>creeping red fescue</em> is a favorite amongst landscapers for lawns, golf courses, fields, and playgrounds everywhere!
         </p>
     </div>
     <div>
@@ -60,7 +48,7 @@
         />
     </div>
     <div>
-        <p>Named after what gives it it's charm, <em>Kentucky Bluegrass</em> offers a unique display of rich, emerald to blue-green colors. Despite the state of Kentucky laying claim to the nickname "Bluegrass State", this grass species did not originate from there. Native to Europe and northern Asia, this beautifully-colored species became popular in the U.S. as a pasture grass in states like Kentucky. Although this grass is more susceptible to drought-like conditions and may need some extra attention to maintain, the end result is worth the effort!
+        <p class="paragraph" id="kentucky_paragraph" style="float:left;">Named after what gives it it's charm, <em>Kentucky Bluegrass</em> offers a unique display of rich, emerald to blue-green colors. Despite the state of Kentucky laying claim to the nickname "Bluegrass State", this grass species did not originate from there. Native to Europe and northern Asia, this beautifully-colored species became popular in the U.S. as a pasture grass in states like Kentucky. Although this grass is more susceptible to drought-like conditions and may need some extra attention to maintain, the end result is worth the effort!
         </p>
     </div>
     <div>
@@ -76,8 +64,10 @@
              height="450px"
         />   
     </div>
-         <p><em>St. Augustine</em> grass is reminiscent of the kind of grass you would have likely played in as a child; large-bladed, roughly cut, thick growth. <em>St. Augustine</em> grass is one of the most popular lawn grasses in the coastal state of Florida! Forming a thick, dense turf, this grass establishes itself quickly and has a remarkable trait - it has a high tolerance for salt! Making it an ideal choice for coastal lawns and yards! Thriving in environments with high humidity, it is also a popular grass in Australia. Also known as <em><strong>"buffalo turf"</strong></em> for it's dense, "carpet-like" sod, this grass is also commonly used in pastures and on ranches for livestock to graze on.</p>
-  </body>
+    <div>
+         <p class="paragraph" id="augustine_paragraph" style="float:left"><em>St. Augustine</em> grass is reminiscent of the kind of grass you would have likely played in as a child; large-bladed, roughly cut, thick growth. <em>St. Augustine</em> grass is one of the most popular lawn grasses in the coastal state of Florida! Forming a thick, dense turf, this grass establishes itself quickly and has a remarkable trait - it has a high tolerance for salt! Making it an ideal choice for coastal lawns and yards! Thriving in environments with high humidity, it is also a popular grass in Australia. Also known as <em><strong>"buffalo turf"</strong></em> for it's dense, "carpet-like" sod, this grass is also commonly used in pastures and on ranches for livestock to graze on.</p>
+    </div>
+        </body>
   <script>
     function displayDate() {
         document.getElementById("showDate").innerHTML = Date();
